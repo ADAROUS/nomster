@@ -60,7 +60,8 @@ group :test do
 end
 
 gem 'popper_js', '>= 1.11.1'
-gem 'bootstrap', '>= 4.3.1'
+gem 'bootstrap', '4.0.0.alpha6'
+#gem 'bootstrap', '>= 4.3.1' (for git vulnearbilities)
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
