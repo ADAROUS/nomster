@@ -71,3 +71,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-rails'
+gem 'will_paginate', '~> 3.1.1'
+gem 'will_paginate-bootstrap' 
+#this is needed to add bootsrap style to pagination
+gem 'simple_form'
+
