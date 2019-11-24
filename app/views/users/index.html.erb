@@ -1,0 +1,11 @@
+<h1>Places</h1>
+
+<%= will_paginate @places %>
+
+<% for place in @places %>
+  <div class="place">
+  </div>
+
+<% end %>
+
+<p><% = link_to "New Place", new_place_path %></p>
